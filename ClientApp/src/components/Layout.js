@@ -14,7 +14,14 @@ export class Layout extends Component {
         </Container>
             <footer className="border-top footer text-muted">
                 <div className="container">
-                    Software Security Anti-Patterns &copy; 2020
+                    <div class="row">
+                        <div class="col-6">
+                            Coding Mistakes Hackers Abuse &copy;
+                        </div>
+                        <div class="col-6 text-right">
+                            github.com/codingmistakes
+                        </div>
+                    </div>
                 </div>
             </footer>
       </div>
